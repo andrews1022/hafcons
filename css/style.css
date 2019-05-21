@@ -1,0 +1,608 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* Margin and padding Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Paul Irish box-sizing reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+/* 
+Hafcon Color: #18bba5;
+*/
+
+/* Header Styling */
+.nav-text {
+    background-color: #18bba5;
+    color: #ffffff;
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+    padding: 1.5% 0;
+    text-align: center;
+}
+
+/* Wrapper Styling */
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* Section Dividing Line Styling */
+.section-border {
+    background-color: #6bd8c9;
+    height: 2.5px;
+    margin: 0 auto;
+    width: 60%;
+}
+
+/* Margin for each section */
+.section-welcome,
+.section-usage,
+.section-icons {
+    margin: 8% 0;
+}
+
+/* Styling for the section headers */
+.welcome-hdr,
+.usg-hdr,
+.icn-hdr {
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+    letter-spacing: 0.75px;
+}
+
+.icn-hdr {
+    margin-bottom: 6%;
+    text-align: center;
+}
+
+/* Styling for the section paragraphs */
+.welcome-para,
+.usg-para {
+    margin-bottom: 8%;
+    line-height: 145%;
+}
+
+/* Span Stylings */
+.hafcon-spn {
+    color: #18bba5;
+    font-weight: bolder;
+}
+
+.html-spn {
+    color: #ea5827;
+    font-weight: bolder;
+}
+
+.css-spn {
+    color: #2758ea;
+    font-weight: bolder;
+}
+
+/* Styling for the CDN Button */
+.cdn-btn-container {
+    text-align: center;
+}
+
+.cdn-btn {
+    background-color: #18bba5;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-size: 1.35rem;
+    font-weight: bolder;
+    margin-bottom: 8%;
+    outline: none;
+    padding: 3.25% 15%;
+    text-align: center;
+    transition: ease-in-out 250ms;
+}
+
+.cdn-btn:hover,
+.cdn-btn:active,
+.cdn-btn:focus {
+    background-color: #00a58f;
+    cursor: pointer;
+}
+
+/* Icon Card Styling */
+.icon-card {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin: 0 auto 10% auto;
+    width: 90%;
+}
+
+.content-box {
+    background-color: #f3f2f2;
+    flex-grow: 1;
+    padding: 6% 0 6% 6%;
+}
+
+.color-box {
+    background-color: #ade6d3;
+    flex: 1;
+    max-width: 20%;
+}
+
+/* General Icon Styling */
+.icon-row {
+    margin-bottom: 4%;
+}
+
+.icon-row i {
+    color: #2c2c2c;
+    margin-right: 5%;
+}
+
+.main-icon {
+    font-size: 3.5rem;
+    transition: ease-in-out 250ms;
+}
+
+/* Color Codes & Brand Link Styling */
+.color-codes-row {
+    font-size: 1.1rem;
+    line-height: 145%;
+}
+
+.color-codes-row a:link,
+.color-codes-row a:visited {
+    color: #18bba5;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: ease-in-out 250ms;
+}
+
+.color-codes-row a:hover,
+.color-codes-row a:active,
+.color-codes-row a:focus {
+    color: #00a58f;
+    font-size: 1.25rem;
+}
+
+
+/****----ICON COLORS----****/
+
+/* Facebook Icon Card Styling */
+.fa-facebook-square:hover {
+    color: #4267b2;
+}
+
+.color-box.facebook-square {
+    background-color: #4267b2;
+}
+
+/* Adobe Icon Card Styling */
+.fa-adobe:hover {
+    color: #ff0000;
+}
+
+.color-box.adobe {
+    background-color: #ff0000;
+}
+
+/* affiliatetheme Icon Card Styling */
+.fa-affiliatetheme:hover {
+    color: #c01313;
+}
+
+.color-box.affiliatetheme {
+    background-color: #c01313;
+}
+
+/* Airbnb Icon Card Styling */
+.fa-airbnb:hover {
+    color: #ff5a5f;
+}
+
+.color-box.airbnb {
+    background-color: #ff5a5f;
+}
+
+/* Algolia Icon Card Styling */
+.fa-algolia:hover {
+    color: #1b89f2;
+}
+
+.color-box.algolia {
+    background-color: #1b89f2;
+}
+
+/* Alipay Icon Card Styling */
+.fa-alipay:hover {
+    color: #00aaee;
+}
+
+.color-box.alipay {
+    background-color: #00aaee;
+}
+
+/* Amazon Icon Card Stylings */
+.fa-amazon:hover,
+.fa-amazon-pay:hover,
+.fa-cc-amazon-pay:hover,
+.fa-aws:hover {
+    color: #ff9900;
+}
+
+.color-box.amazon,
+.color-box.amazon-pay,
+.color-box.cc-amazon-pay,
+.color-box.aws {
+    background-color: #ff9900;
+}
+
+/* Amex Icon Card Styling */
+.fa-cc-amex:hover {
+    color: #006fcf;
+}
+
+.color-box.cc-amex {
+    background-color: #006fcf;
+}
+
+/* Android Icon Card Styling */
+.fa-android:hover {
+    color: #77c159;
+}
+
+.color-box.android {
+    background-color: #77c159;
+}
+
+/* Angular Icon Card Styling */
+.fa-angular:hover {
+    color: #d00030;
+}
+
+.color-box.angular {
+    background-color: #d00030;
+}
+
+/* App Store Icon Card Stylings */
+.fa-app-store:hover,
+.fa-app-store-ios:hover {
+    color: #1d9bf5;
+}
+
+.color-box.app-store,
+.color-box.app-store-ios {
+    background-color: #1d9bf5;
+}
+
+/* Apple & Apple Pay Icon Card Styling */
+.fa-apple:hover,
+.fa-apple-pay:hover,
+.fa-cc-apple-pay:hover {
+    color: #888888;
+}
+
+.color-box.apple,
+.color-box.apple-pay,
+.color-box.cc-apple-pay {
+    background-color: #888888;
+}
+
+/* Audible Icon Card Styling */
+.fa-audible:hover {
+    color: #f9a638;
+}
+
+.color-box.audible {
+    background-color: #f9a638;
+}
+
+/* Autoprefixer Icon Card Styling */
+.fa-autoprefixer:hover {
+    color: #dd3735;
+}
+
+.color-box.autoprefixer {
+    background-color: #dd3735;
+}
+
+/* Bandcamp Icon Card Styling */
+.fa-bandcamp:hover {
+    color: #1da0c3;
+}
+
+.color-box.bandcamp {
+    background-color: #1da0c3;
+}
+
+/****----MEDIA QUERIES----****/
+
+/* BREAKPOINT 1: 768px wide */
+@media only screen and (min-width: 768px) {
+    .nav-text {
+        font-size: 2.75rem;
+    }
+
+    .wrapper {
+        width: 75%;
+    }
+
+    .section-border {
+        width: 50%;
+    }
+
+    .section-welcome,
+    .section-usage,
+    .section-icons {
+        margin: 6% 0;
+    }
+
+    .welcome-hdr,
+    .usg-hdr,
+    .icn-hrd {
+        font-size: 1.75rem;
+    }
+
+    .welcome-para,
+    .usg-para {
+        margin-bottom: 6%;
+    }
+
+    .cdn-btn {
+        font-size: 1.45rem;
+        margin-bottom: 6%;
+        padding: 3% 12%;
+    }
+
+    .icon-card {
+        margin: 0 auto 7.5% auto;
+        width: 60%;
+    }
+
+    .content-box {
+        padding: 5.5% 0 5.5% 5.5%;
+    }
+
+    .color-box {
+        max-width: 22%;
+    }
+
+    .icon-row i {
+        margin-right: 6%;
+    }
+
+    .main-icon {
+        font-size: 3.8rem;
+    }
+
+    .color-codes-row {
+        font-size: 1.2rem;
+    }
+
+    .color-codes-row a:hover,
+    .color-codes-row a:active,
+    .color-codes-row a:focus {
+        font-size: 1.3rem;
+    }
+}
+
+/* BREAKPOINT 2: 1024px wide */
+@media only screen and (min-width: 1024px) {
+    .nav-text {
+        font-size: 2.75rem;
+        padding: 1.2% 0;
+    }
+
+    .wrapper {
+        width: 75%;
+    }
+
+    .section-border {
+        width: 50%;
+    }
+
+    .section-welcome,
+    .section-usage,
+    .section-icons {
+        margin: 8% 0;
+    }
+
+    .welcome-hdr,
+    .usg-hdr,
+    .icn-hdr {
+        font-size: 1.5rem;
+        margin-bottom: 2%;
+        letter-spacing: 0.75px;
+    }
+
+    .icn-hdr {
+        margin-bottom: 6%;
+        text-align: center;
+    }
+
+    .welcome-para,
+    .usg-para {
+        margin-bottom: 4%;
+        line-height: 145%;
+    }
+
+    .cdn-btn {
+        font-size: 1.45rem;
+        margin-bottom: 4%;
+        padding: 2% 9.5%;
+    }
+
+    .icon-card {
+        margin: 0 auto 7% auto;
+        width: 55%;
+    }
+
+    .content-box {
+        padding: 5% 0 5% 5%;
+    }
+
+    .color-box {
+        max-width: 24%;
+    }
+
+    .main-icon {
+        font-size: 3.85rem;
+    }
+}
+
+/* BREAKPOINT 3: 1366px wide */
+@media only screen and (min-width: 1366px) {
+    .nav-text {
+        padding: 1.1% 0;
+    }
+
+    .wrapper {
+        width: 68%;
+    }
+
+    .section-border {
+        height: 2.7px;
+        width: 45%;
+    }
+
+    .section-welcome,
+    .section-usage,
+    .section-icons {
+        margin: 4% 0;
+    }
+
+    .welcome-hdr,
+    .usg-hdr,
+    .icn-hdr {
+        font-size: 1.8rem;
+        margin-bottom: 1.1%;
+    }
+
+    .icn-hdr {
+        margin-bottom: 4%;
+    }
+
+    .welcome-para,
+    .usg-para {
+        margin-bottom: 4%;
+        font-size: 1.12rem;
+    }
+
+    .cdn-btn {
+        font-size: 1.55rem;
+        margin-bottom: 4%;
+        padding: 2.25% 10%;
+    }
+
+    .icon-card {
+        margin: 0 auto 6% auto;
+        width: 45%;
+    }
+
+    .content-box {
+        padding: 5.5% 0 5.5% 5.5%;
+    }
+
+    .color-box {
+        max-width: 25%;
+    }
+
+    .main-icon {
+        font-size: 4rem;
+    }
+
+    .color-codes-row {
+        font-size: 1.12rem;
+    }
+}
+
+/* BREAKPOINT 4: 1920px wide */
+@media only screen and (min-width: 1920px) {
+    .nav-text {
+        font-size: 2.75rem;
+        padding: 1% 0;
+    }
+
+    .wrapper {
+        width: 50%;
+    }
+
+    .section-border {
+        width: 35%;
+    }
+
+    .section-welcome,
+    .section-usage,
+    .section-icons {
+        margin: 4% 0;
+    }
+
+    .welcome-hdr,
+    .usg-hdr,
+    .icn-hdr {
+        font-size: 1.9rem;
+        margin-bottom: 1.2%;
+    }
+
+    .icn-hdr {
+        margin-bottom: 3.5%;
+    }
+
+    .welcome-para,
+    .usg-para {
+        margin-bottom: 3.5%;
+        line-height: 155%;
+    }
+
+    .cdn-btn {
+        font-size: 1.9rem;
+        margin-bottom: 3.5%;
+        padding: 2.5% 10%;
+    }
+
+    .icon-card {
+        margin: 0 auto 5% auto;
+        width: 40%;
+    }
+
+    .content-box {
+        padding: 5.5% 0 5.25% 5.25%;
+    }
+
+    .color-box {
+        max-width: 24%;
+    }
+
+    .icon-row {
+        margin-bottom: 3%;
+    }
+
+    .main-icon {
+        font-size: 4.15rem;
+    }
+
+    .color-codes-row {
+        font-size: 1.2rem;
+        line-height: 155%;
+    }
+
+    .color-codes-row a:hover,
+    .color-codes-row a:active,
+    .color-codes-row a:focus {
+        font-size: 1.35rem;
+    }
+}

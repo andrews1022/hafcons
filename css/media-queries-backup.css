@@ -1,0 +1,286 @@
+/****----MEDIA QUERIES----****/
+
+/* BREAKPOINT 1: 768px wide */
+@media only screen and (min-width: 768px) {
+    .nav-text {
+        font-size: 2.75rem;
+    }
+
+    .wrapper {
+        width: 75%;
+    }
+
+    .section-border {
+        width: 50%;
+    }
+
+    .section-welcome,
+    .section-usage,
+    .section-icons {
+        margin: 6% 0;
+    }
+
+    .welcome-hdr,
+    .usg-hdr,
+    .icn-hrd {
+        font-size: 1.75rem;
+    }
+
+    .welcome-para,
+    .usg-para {
+        margin-bottom: 6%;
+    }
+
+    .cdn-btn {
+        font-size: 1.45rem;
+        margin-bottom: 6%;
+        padding: 3% 12%;
+    }
+
+    .icon-card {
+        margin: 0 auto 7.5% auto;
+        width: 70%;
+    }
+
+    .content-box {
+        padding: 5.5% 0 5.5% 5.5%;
+    }
+
+    .color-box {
+        max-width: 23%;
+    }
+
+    .icon-row i {
+        margin-right: 6%;
+    }
+
+    .main-icon {
+        font-size: 3.8rem;
+    }
+
+    .code-icon {
+        font-size: 2.15rem;
+    }
+
+    .color-codes-row {
+        font-size: 1.2rem;
+    }
+
+    .color-codes-row a:hover,
+    .color-codes-row a:active,
+    .color-codes-row a:focus {
+        font-size: 1.3rem;
+    }
+}
+
+/* BREAKPOINT 1: 1024px wide */
+@media only screen and (min-width: 1024px) {
+    .nav-text {
+        font-size: 2.75rem;
+        padding: 1.2% 0;
+    }
+
+    .wrapper {
+        width: 75%;
+    }
+
+    .section-border {
+        width: 50%;
+    }
+
+    .section-welcome,
+    .section-usage,
+    .section-icons {
+        margin: 8% 0;
+    }
+
+    .welcome-hdr,
+    .usg-hdr,
+    .icn-hdr {
+        font-size: 1.5rem;
+        margin-bottom: 2%;
+        letter-spacing: 0.75px;
+    }
+
+    .icn-hdr {
+        margin-bottom: 6%;
+        text-align: center;
+    }
+
+    .welcome-para,
+    .usg-para {
+        margin-bottom: 4%;
+        line-height: 145%;
+    }
+
+    .cdn-btn {
+        font-size: 1.45rem;
+        margin-bottom: 4%;
+        padding: 2% 9.5%;
+    }
+
+    .icon-card {
+        margin: 0 auto 7% auto;
+        width: 65%;
+    }
+
+    .content-box {
+        padding: 5% 0 5% 5%;
+    }
+
+    .color-box {
+        max-width: 22%;
+    }
+
+    .main-icon {
+        font-size: 3.85rem;
+    }
+
+    .code-icon {
+        font-size: 2.2rem;
+    }
+}
+
+/* BREAKPOINT 3: 1366px wide */
+@media only screen and (min-width: 1366px) {
+    .nav-text {
+        padding: 1.1% 0;
+    }
+
+    .wrapper {
+        width: 68%;
+    }
+
+    .section-border {
+        height: 2.7px;
+        width: 45%;
+    }
+
+    .section-welcome,
+    .section-usage,
+    .section-icons {
+        margin: 4% 0;
+    }
+
+    .welcome-hdr,
+    .usg-hdr,
+    .icn-hdr {
+        font-size: 1.8rem;
+        margin-bottom: 1.1%;
+    }
+
+    .icn-hdr {
+        margin-bottom: 4%;
+    }
+
+    .welcome-para,
+    .usg-para {
+        margin-bottom: 4%;
+        font-size: 1.12rem;
+    }
+
+    .cdn-btn {
+        font-size: 1.55rem;
+        margin-bottom: 4%;
+        padding: 2.25% 10%;
+    }
+
+    .icon-card {
+        margin: 0 auto 6% auto;
+        width: 55%;
+    }
+
+    .content-box {
+        padding: 5.5% 0 5.5% 5.5%;
+    }
+
+    .color-box {
+        max-width: 22%;
+    }
+
+    .main-icon {
+        font-size: 4rem;
+    }
+
+    .code-icon {
+        font-size: 2.4rem;
+    }
+
+    .color-codes-row {
+        font-size: 1.12rem;
+    }
+}
+
+/* BREAKPOINT 4: 1920px wide */
+@media only screen and (min-width: 1920px) {
+    .nav-text {
+        font-size: 2.75rem;
+        padding: 1% 0;
+    }
+    .wrapper {
+        width: 50%;
+    }
+
+    .section-border {
+        width: 35%;
+    }
+    
+    .section-welcome,
+    .section-usage,
+    .section-icons {
+        margin: 4% 0;
+    }
+
+    .welcome-hdr,
+    .usg-hdr,
+    .icn-hdr {
+        font-size: 1.9rem;
+        margin-bottom: 1.2%;
+    }
+    
+    .icn-hdr {
+        margin-bottom: 3.5%;
+    }
+    
+    .welcome-para,
+    .usg-para {
+        margin-bottom: 3.5%;
+        line-height: 155%;
+    }
+    
+    .cdn-btn {
+        font-size: 1.9rem;
+        margin-bottom: 3.5%;
+        padding: 2.5% 10%;
+    }
+    
+    .icon-card {
+        margin: 0 auto 10% auto;
+        width: 60%;
+    }
+    
+    .content-box {
+        padding: 5.25% 0 5.25% 5.25%;
+    }
+    
+    .color-box {
+        max-width: 25%;
+    }
+    
+    .icon-row {
+        margin-bottom: 3%;
+    }
+    
+    .main-icon {
+        font-size: 4.15rem;
+    }
+    
+    .code-icon {
+        font-size: 2.5rem;
+    }
+    
+    .color-codes-row {
+        font-size: 1.2rem;
+        line-height: 155%;
+    }
+}
