@@ -149,7 +149,7 @@ Hafcon Color: #18bba5;
 }
 
 .icon-row i {
-    color: #2c2c2c;
+    color: #414141;
     margin-right: 5%;
 }
 
@@ -182,13 +182,39 @@ Hafcon Color: #18bba5;
 
 /****----ICON COLORS----****/
 
-/* Facebook Icon Card Styling */
-.fa-facebook-square:hover {
-    color: #4267b2;
+/* Black Icon Card Stylings */
+.fa-angellist:hover,
+.fa-blackberry:hover,
+.fa-codepen:hover,
+.fa-codiepie:hover,
+.fa-expeditedssl:hover {
+    color: #000000;
 }
 
-.color-box.facebook-square {
-    background-color: #4267b2;
+.color-box.angellist,
+.color-box.blackberry,
+.color-box.codepen,
+.color-box.codiepie,
+.color-box.expeditedssl {
+    background-color: #000000;
+}
+
+/* React Demo Icon Card Styling */
+.fa-react:hover {
+    color: #61dafb;
+}
+
+.color-box.react {
+    background-color: #61dafb;
+}
+
+/* Accusoft Icon Card Stylings */
+.fa-accusoft:hover {
+    color: #f9f9f9;
+}
+
+.color-box.accusoft {
+    background-color: #f9f9f9;
 }
 
 /* Adobe Icon Card Styling */
@@ -260,6 +286,15 @@ Hafcon Color: #18bba5;
     background-color: #006fcf;
 }
 
+/* Amilia Icon Card Styling */
+.fa-amilia:hover {
+    color: #2b91e1;
+}
+
+.color-box.amilia {
+    background-color: #2b91e1;
+}
+
 /* Android Icon Card Styling */
 .fa-android:hover {
     color: #77c159;
@@ -302,6 +337,33 @@ Hafcon Color: #18bba5;
     background-color: #888888;
 }
 
+/* ArtStation Icon Card Styling */
+.fa-artstation:hover {
+    color: #13aff0;
+}
+
+.color-box.artstation {
+    background-color: rgb(19, 175, 240);
+}
+
+/* Asymmetrik Icon Card Styling */
+.fa-asymmetrik:hover {
+    color: #be1e2d;
+}
+
+.color-box.asymmetrik {
+    background-color: #be1e2d;
+}
+
+/* Atlassian Icon Card Styling */
+.fa-atlassian:hover {
+    color: #007dff;
+}
+
+.color-box.atlassian {
+    background-color: #007dff;
+}
+
 /* Audible Icon Card Styling */
 .fa-audible:hover {
     color: #f9a638;
@@ -327,6 +389,435 @@ Hafcon Color: #18bba5;
 
 .color-box.bandcamp {
     background-color: #1da0c3;
+}
+
+/* Battle.net Icon Card Styling */
+.fa-battle-net:hover {
+    color: #00a2f0;
+}
+
+.color-box.battle-net {
+    background-color: #00a2f0;
+}
+
+/* Behance Icon Card Stylings */
+.fa-behance:hover,
+.fa-behance-square:hover {
+    color: #0056ff;
+}
+
+.color-box.behance,
+.color-box.behance-square {
+    background-color: #0056ff;
+}
+
+/* BIMobject Icon Card Styling */
+.fa-bimobject:hover {
+    color: #00aeef;
+}
+
+.color-box.bimobject {
+    background-color: #00aeef;
+}
+
+/* Bitbucket Icon Card Styling */
+.fa-bitbucket:hover {
+    color: #2684ff;
+}
+
+.color-box.bitbucket {
+    background-color: #2684ff;
+}
+
+/* Bitcoin Icon Card Stylings */
+.fa-bitcoin:hover,
+.fa-btc:hover {
+    color: #f79413;
+}
+
+.color-box.bitcoin,
+.color-box.btc {
+    background-color: #f79413;
+}
+
+/* Blogger Icon Card Styling */
+.fa-blogger:hover,
+.fa-blogger-b:hover {
+    color: #f27b36;
+}
+
+.color-box.blogger,
+.color-box.blogger-b {
+    background-color: #f27b36;
+}
+
+/* Bluetooth Icon Card Stylings */
+.fa-bluetooth:hover,
+.fa-bluetooth-b:hover {
+    color: #0083fc;
+}
+
+.color-box.bluetooth,
+.color-box.bluetooth-b {
+    background-color: #0083fc;
+}
+
+/* Bootstrap Icon Card Styling */
+.fa-bootstrap:hover {
+    color: #563d7c;
+}
+
+.color-box.bootstrap {
+    background-color: #563d7c;
+}
+
+/* Buffer Icon Card Styling */
+.fa-buffer:hover {
+    color: #192535;
+}
+
+.color-box.buffer {
+    background-color: #192535;
+}
+
+/* Cloudversify Icon Card Styling */
+.fa-cloudversify:hover {
+    color: #29bae3;
+}
+
+.color-box.cloudversify {
+    background-color: #29bae3;
+}
+
+/* Contao Icon Card Styling */
+.fa-contao:hover {
+    color: #f47c00;
+}
+
+.color-box.contao {
+    background-color: #f47c00;
+}
+
+/* cPanel Icon Card Styling */
+.fa-cpanel:hover {
+    color: #f86c2f;
+}
+
+.color-box.cpanel {
+    background-color: #f86c2f;
+}
+
+/* CSS3 Icon Card Styling */
+.fa-css3-alt:hover {
+    color: #2758ea;
+}
+
+.color-box.css3-alt {
+    background-color: #2758ea;
+}
+
+/* Dashcube Icon Card Styling */
+.fa-dashcube:hover {
+    color: #949494;
+}
+
+.color-box.dashcube {
+    background-color: #949494;
+}
+
+/* Deskpro Icon Card Styling */
+.fa-deskpro:hover {
+    color: #4196d4;
+}
+
+.color-box.deskpro {
+    background-color: #4196d4;
+}
+
+/* DigitalOcean Icon Card Styling */
+.fa-digital-ocean:hover {
+    color: #0069ff;
+}
+
+.color-box.digital-ocean {
+    background-color: #0069ff;
+}
+
+/* Discord Icon Card Styling */
+.fa-discord:hover {
+    color: #7289da;
+}
+
+.color-box.discord {
+    background-color: #7289da;
+}
+
+/* Discord Icon Card Styling */
+.fa-dochub:hover {
+    color: #32a4fa;
+}
+
+.color-box.dochub {
+    background-color: #32a4fa;
+}
+
+/* Docker Icon Card Styling */
+.fa-docker:hover {
+    color: #099cec;
+}
+
+.color-box.docker {
+    background-color: #099cec;
+}
+
+/* Draft2Digital Icon Card Styling */
+.fa-draft2digital:hover {
+    color: #ef4823;
+}
+
+.color-box.draft2digital {
+    background-color: #ef4823;
+}
+
+/* Dribbble Icon Card Styling */
+.fa-dribbble:hover {
+    color: #c32361;
+}
+
+.color-box.dribbble {
+    background-color: #c32361;
+}
+
+/* Dribbble Square Icon Card Styling */
+.fa-dribbble-square:hover {
+    color: #ea4c8a;
+}
+
+.color-box.dribbble-square {
+    background-color: #ea4c8a;
+}
+
+/* Dropbox Icon Card Styling */
+.fa-dropbox:hover {
+    color: #0061ff;
+}
+
+.color-box.dropbox {
+    background-color: #0061ff;
+}
+
+/* Drupal Icon Card Styling */
+.fa-drupal:hover {
+    color: #0381c3;
+}
+
+.color-box.drupal {
+    background-color: #0381c3;
+}
+
+/* Edge Icon Card Styling */
+.fa-edge:hover {
+    color: #0078d7;
+}
+
+.color-box.edge {
+    background-color: #0078d7;
+}
+
+/* Ember.js Icon Card Styling */
+.fa-ember:hover {
+    color: #e04e39;
+}
+
+.color-box.ember {
+    background-color: #e04e39;
+}
+
+/* Envira Icon Card Styling */
+.fa-envira:hover {
+    color: #7bbf48;
+}
+
+.color-box.envira {
+    background-color: #7bbf48;
+}
+
+/* Erlang Icon Card Styling */
+.fa-erlang:hover {
+    color: #8c032f;
+}
+
+.color-box.erlang {
+    background-color: #8c032f;
+}
+
+/* Ethereum Icon Card Styling */
+.fa-ethereum:hover {
+    color: #8c8c8c;
+}
+
+.color-box.ethereum {
+    background-color: #8c8c8c;
+}
+
+/* Etsy Icon Card Styling */
+.fa-etsy:hover {
+    color: #f45800;
+}
+
+.color-box.etsy {
+    background-color: #f45800;
+}
+
+/* Evernote Icon Card Styling */
+.fa-evernote:hover {
+    color: #00a82d;
+}
+
+.color-box.evernote {
+    background-color: #00a82d;
+}
+
+/* Facebook Icon Card Stylings */
+.fa-facebook-f:hover,
+.fa-facebook-square:hover {
+    color: #4267b2;
+}
+
+.color-box.facebook-f,
+.color-box.facebook-square {
+    background-color: #4267b2;
+}
+
+/* Fedora Icon Card Styling */
+.fa-fedora:hover {
+    color: #0a57a4;
+}
+
+.color-box.fedora {
+    background-color: #0a57a4;
+}
+
+/* Firefox Icon Card Styling */
+.fa-firefox:hover {
+    color: #ff4911;
+}
+
+.color-box.firefox {
+    background-color: #ff4911;
+}
+
+/* Flickr Blue Icon Card Styling */
+.flickr-blue:hover {
+    color: #006add;
+}
+
+.color-box.flickr-blue {
+    background-color: #006add;
+}
+
+/* Flickr Blue Icon Card Styling */
+.flickr-pink:hover {
+    color: #ff1981;
+}
+
+.color-box.flickr-pink {
+    background-color: #ff1981;
+}
+
+/* Flipboard Icon Card Styling */
+.fa-flipboard:hover {
+    color: #f52828;
+}
+
+.color-box.flipboard {
+    background-color: #f52828;
+}
+
+/* Font Awesome Icon Card Stylings */
+.fa-font-awesome:hover,
+.fa-font-awesome-alt:hover,
+.fa-font-awesome-flag:hover {
+    color: #339af0;
+}
+
+.color-box.font-awesome,
+.color-box.font-awesome-alt,
+.color-box.font-awesome-flag {
+    background-color: #339af0;
+}
+
+/* Forumbee Icon Card Styling */
+.fa-forumbee:hover {
+    color: #85ab2e;
+}
+
+.color-box.forumbee {
+    background-color: #85ab2e;
+}
+
+/* Foursquare Icon Card Styling */
+.fa-foursquare:hover {
+    color: #fa4778;
+}
+
+.color-box.foursquare {
+    background-color: #fa4778;
+}
+
+/* freeCodeCamp Icon Card Styling */
+.fa-free-code-camp:hover {
+    color: #006400;
+}
+
+.color-box.free-code-camp {
+    background-color: #006400;
+}
+
+/* FreeBSD Icon Card Styling */
+.fa-freebsd:hover {
+    color: #b5010f;
+}
+
+.color-box.freebsd {
+    background-color: #b5010f;
+}
+
+
+/* Messenger Icon Card Styling */
+.fa-facebook-messenger:hover {
+    color: #01acff;
+}
+
+.color-box.facebook-messenger {
+    background-color: #01acff;
+}
+
+/* PayPal Icon Card Styling */
+.fa-paypal:hover {
+    color: #002f86;
+}
+
+.color-box.paypal {
+    background-color: #002f86;
+}
+
+/* PayPal Icon Card Styling */
+.fa-paypal:hover {
+    color: #002f86;
+}
+
+.color-box.paypal {
+    background-color: #002f86;
+}
+
+/* PayPal CC Icon Card Styling */
+.fa-cc-paypal:hover {
+    color: #009cde;
+}
+
+.color-box.cc-paypal {
+    background-color: #009cde;
 }
 
 /****----MEDIA QUERIES----****/
@@ -448,7 +939,7 @@ Hafcon Color: #18bba5;
 
     .icon-card {
         margin: 0 auto 7% auto;
-        width: 55%;
+        width: 50%;
     }
 
     .content-box {
@@ -456,7 +947,7 @@ Hafcon Color: #18bba5;
     }
 
     .color-box {
-        max-width: 24%;
+        max-width: 22%;
     }
 
     .main-icon {
@@ -518,7 +1009,7 @@ Hafcon Color: #18bba5;
     }
 
     .color-box {
-        max-width: 25%;
+        max-width: 22%;
     }
 
     .main-icon {
@@ -576,7 +1067,7 @@ Hafcon Color: #18bba5;
 
     .icon-card {
         margin: 0 auto 5% auto;
-        width: 40%;
+        width: 43%;
     }
 
     .content-box {
