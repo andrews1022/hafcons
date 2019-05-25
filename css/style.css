@@ -187,7 +187,11 @@ Hafcon Color: #18bba5;
 .fa-blackberry:hover,
 .fa-codepen:hover,
 .fa-codiepie:hover,
-.fa-expeditedssl:hover {
+.fa-expeditedssl:hover,
+.fa-grav:hover,
+.fa-leanpub:hover,
+.fa-medium:hover,
+.fa-medium-m:hover {
     color: #000000;
 }
 
@@ -195,7 +199,11 @@ Hafcon Color: #18bba5;
 .color-box.blackberry,
 .color-box.codepen,
 .color-box.codiepie,
-.color-box.expeditedssl {
+.color-box.expeditedssl,
+.color-box.grav,
+.color-box.leanpub,
+.color-box.medium,
+.color-box.medium-m {
     background-color: #000000;
 }
 
@@ -783,6 +791,381 @@ Hafcon Color: #18bba5;
     background-color: #b5010f;
 }
 
+/* Git Icon Card Styling */
+.fa-git:hover {
+    color: #413932;
+}
+
+.color-box.git {
+    background-color: #413932;
+}
+
+/* Git Square Icon Card Styling */
+.fa-git-square:hover {
+    color: #f54d27;
+}
+
+.color-box.git-square {
+    background-color: #f54d27;
+}
+
+/* GitHub Icon Card Stylings */
+.fa-github:hover,
+.fa-github-alt:hover,
+.fa-github-square:hover {
+    color: #1b1f23;
+}
+
+.color-box.github,
+.color-box.github-alt,
+.color-box.github-square {
+    background-color: #1b1f23;
+}
+
+/* GitKraken Icon Card Styling */
+.fa-gitkraken:hover {
+    color: #199489;
+}
+
+.color-box.gitkraken {
+    background-color: #199489;
+}
+
+/* Gitter Icon Card Styling */
+.fa-gitter:hover {
+    color: #ed004b;
+}
+
+.color-box.gitter {
+    background-color: #ed004b;
+}
+
+/* Glide Icon Card Stylings */
+.fa-glide:hover,
+.fa-glide-g:hover {
+    color: #0099ff;
+}
+
+.color-box.glide,
+.color-box.glide-g {
+    background-color: #0099ff;
+}
+
+/* Gofore Icon Card Styling */
+.fa-gofore:hover {
+    color: #ff8551;
+}
+
+.color-box.gofore {
+    background-color: #ff8551;
+}
+
+/* Google Icon Card Styling */
+.fa-google:hover {
+    color: #498af5;
+}
+
+.color-box.google {
+    background-color: #498af5;
+}
+
+/* Google+ Icon Card Stylings */
+.fa-google-plus:hover,
+.fa-google-plus-g:hover,
+.fa-google-plus-square:hover {
+    color: #dd5144;
+}
+
+.color-box.google-plus,
+.color-box.google-plus-g,
+.color-box.google-plus-square {
+    background-color: #dd5144;
+}
+
+/* Gratipay Icon Card Styling */
+.fa-gratipay:hover {
+    color: #663300;
+}
+
+.color-box.gratipay {
+    background-color: #663300;
+}
+
+/* Grunt Icon Card Styling */
+.fa-grunt:hover {
+    color: #fba919;
+}
+
+.color-box.grunt {
+    background-color: #fba919;
+}
+
+/* gulp.js Icon Card Styling */
+.fa-gulp:hover {
+    color: #da4648;
+}
+
+.color-box.gulp {
+    background-color: #da4648;
+}
+
+/* HackerRank Icon Card Styling */
+.fa-hackerrank:hover {
+    color: #32c966;
+}
+
+.color-box.hackerrank {
+    background-color: #32c966;
+}
+
+/* Hotjar Icon Card Styling */
+.fa-hotjar:hover {
+    color: #fb385a;
+}
+
+.color-box.hotjar {
+    background-color: #fb385a;
+}
+
+/* HTML5 Icon Card Styling */
+.fa-html5:hover {
+    color: #ea5827;
+}
+
+.color-box.html5 {
+    background-color: #ea5827;
+}
+
+/* HubSpot Icon Card Styling */
+.fa-hubspot:hover {
+    color: #f8761f;
+}
+
+.color-box.hubspot {
+    background-color: #f8761f;
+}
+
+/* Intercom Icon Card Styling */
+.fa-intercom:hover {
+    color: #286efa;
+}
+
+.color-box.intercom {
+    background-color: #286efa;
+}
+
+/* InVision Icon Card Styling */
+.fa-invision:hover {
+    color: #fd3365;
+}
+
+.color-box.invision {
+    background-color: #fd3365;
+}
+
+/* IoxHost Icon Card Styling */
+.fa-ioxhost:hover {
+    color: #faa829;
+}
+
+.color-box.ioxhost {
+    background-color: #faa829;
+}
+
+/* itch.io Icon Card Styling */
+.fa-itch-io:hover {
+    color: #fa5c5c;
+}
+
+.color-box.itch-io {
+    background-color: #fa5c5c;
+}
+
+/* Java Blue Icon Card Styling */
+.java-blue:hover {
+    color: #3e7699;
+}
+
+.color-box.java-blue {
+    background-color: #3e7699;
+}
+
+/* Java Orange Icon Card Styling */
+.java-orange:hover {
+    color: #f8981d;
+}
+
+.color-box.java-orange {
+    background-color: #f8981d;
+}
+
+/* Jira Icon Card Styling */
+.fa-jira:hover {
+    color: #2684ff;
+}
+
+.color-box.jira {
+    background-color: #2684ff;
+}
+
+/* JavaScript Icon Card Styling */
+.fa-js:hover {
+    color: #f7e018;
+}
+
+.color-box.js {
+    background-color: #f7e018;
+}
+
+/* JSFiddle Icon Card Styling */
+.fa-jsfiddle:hover {
+    color: #0084ff;
+}
+
+.color-box.jsfiddle {
+    background-color: #0084ff;
+}
+
+/* Kaggle Icon Card Styling */
+.fa-kaggle:hover {
+    color: #20beff;
+}
+
+.color-box.kaggle {
+    background-color: #20beff;
+}
+
+/* KeyCDN Icon Card Styling */
+.fa-keycdn:hover {
+    color: #047aed;
+}
+
+.color-box.keycdn {
+    background-color: #047aed;
+}
+
+/* Kickstarter Icon Card Styling */
+.fa-kickstarter:hover,
+.fa-kickstarter-k:hover {
+    color: #63dd64;
+}
+
+.color-box.kickstarter,
+.color-box.kickstarter-k {
+    background-color: #63dd64;
+}
+
+/* Laravel Icon Card Styling */
+.fa-laravel:hover {
+    color: #fb503b;
+}
+
+.color-box.laravel {
+    background-color: #fb503b;
+}
+
+/* Last.fm Icon Card Styling */
+.fa-lastfm:hover,
+.fa-lastfm-square:hover {
+    color: #e31b23;
+}
+
+.color-box.lastfm,
+.color-box.lastfm-square {
+    background-color: #e31b23;
+}
+
+/* Less Icon Card Styling */
+.fa-less:hover {
+    color: #20426e;
+}
+
+.color-box.less {
+    background-color: #20426e;
+}
+
+/* LinkedIn Icon Card Styling */
+.fa-linkedin:hover,
+.fa-linkedin-in:hover {
+    color: #007bb5;
+}
+
+.color-box.linkedin,
+.color-box.linkedin-in {
+    background-color: #007bb5;
+}
+
+/* Linode Icon Card Styling */
+.fa-linode:hover {
+    color: #00b259;
+}
+
+.color-box.linode {
+    background-color: #00b259;
+}
+
+/* Lyft Icon Card Styling */
+.fa-lyft:hover {
+    color: #ea0b8c;
+}
+
+.color-box.lyft {
+    background-color: #ea0b8c;
+}
+
+/* Magento Icon Card Styling */
+.fa-magento:hover {
+    color: #f26322;
+}
+
+.color-box.magento {
+    background-color: #f26322;
+}
+
+/* Mailchimp Icon Card Styling */
+.fa-mailchimp:hover {
+    color: #ffe01b;
+}
+
+.color-box.mailchimp {
+    background-color: #ffe01b;
+}
+
+/* Mastodon Icon Card Styling */
+.fa-mastodon:hover {
+    color: #3088d4;
+}
+
+.color-box.mastodon {
+    background-color: #3088d4;
+}
+
+/* Meetup Icon Card Styling */
+.fa-meetup:hover {
+    color: #ed1c40;
+}
+
+.color-box.meetup {
+    background-color: #ed1c40;
+}
+
+/* Megaport Icon Card Styling */
+.fa-megaport:hover {
+    color: #ff0000;
+}
+
+.color-box.megaport {
+    background-color: #ff0000;
+}
+
+/* Mendeley Icon Card Styling */
+.fa-mendeley:hover {
+    color: #e5222e;
+}
+
+.color-box.mendeley {
+    background-color: #e5222e;
+}
 
 /* Messenger Icon Card Styling */
 .fa-facebook-messenger:hover {
@@ -791,6 +1174,24 @@ Hafcon Color: #18bba5;
 
 .color-box.facebook-messenger {
     background-color: #01acff;
+}
+
+/* Mizuni Icon Card Styling */
+.fa-mizuni:hover {
+    color: #442da7;
+}
+
+.color-box.mizuni {
+    background-color: #442da7;
+}
+
+/* Monero Icon Card Styling */
+.fa-monero:hover {
+    color: #f26822;
+}
+
+.color-box.monero {
+    background-color: #f26822;
 }
 
 /* PayPal Icon Card Styling */
@@ -818,6 +1219,15 @@ Hafcon Color: #18bba5;
 
 .color-box.cc-paypal {
     background-color: #009cde;
+}
+
+/* Pocket Icon Card Styling */
+.fa-get-pocket:hover {
+    color: #ef4056;
+}
+
+.color-box.get-pocket {
+    background-color: #ef4056;
 }
 
 /****----MEDIA QUERIES----****/
