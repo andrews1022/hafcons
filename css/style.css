@@ -191,7 +191,8 @@ Hafcon Color: #18bba5;
 .fa-grav:hover,
 .fa-leanpub:hover,
 .fa-medium:hover,
-.fa-medium-m:hover {
+.fa-medium-m:hover,
+.fa-pagelines:hover {
     color: #000000;
 }
 
@@ -203,7 +204,8 @@ Hafcon Color: #18bba5;
 .color-box.grav,
 .color-box.leanpub,
 .color-box.medium,
-.color-box.medium-m {
+.color-box.medium-m,
+.color-box.pagelines {
     background-color: #000000;
 }
 
@@ -214,15 +216,6 @@ Hafcon Color: #18bba5;
 
 .color-box.react {
     background-color: #61dafb;
-}
-
-/* Accusoft Icon Card Stylings */
-.fa-accusoft:hover {
-    color: #f9f9f9;
-}
-
-.color-box.accusoft {
-    background-color: #f9f9f9;
 }
 
 /* Adobe Icon Card Styling */
@@ -351,7 +344,7 @@ Hafcon Color: #18bba5;
 }
 
 .color-box.artstation {
-    background-color: rgb(19, 175, 240);
+    background-color: #14aef0;
 }
 
 /* Asymmetrik Icon Card Styling */
@@ -1194,13 +1187,60 @@ Hafcon Color: #18bba5;
     background-color: #f26822;
 }
 
-/* PayPal Icon Card Styling */
-.fa-paypal:hover {
-    color: #002f86;
+/* Node.js Icon Card Styling */
+.fa-node:hover,
+.fa-node-js:hover {
+    color: #649e62;
 }
 
-.color-box.paypal {
-    background-color: #002f86;
+.color-box.node,
+.color-box.node-js {
+    background-color: #649e62;
+}
+
+/* npm Icon Card Styling */
+.fa-npm:hover {
+    color: #cb3837;
+}
+
+.color-box.npm {
+    background-color: #cb3837;
+}
+
+/* ns8 Icon Card Styling */
+.fa-ns8:hover {
+    color: #6cb00c;
+}
+
+.color-box.ns8 {
+    background-color: #6cb00c;
+}
+
+/* opencart Icon Card Styling */
+.fa-opencart:hover {
+    color: #35c2ed;
+}
+
+.color-box.opencart {
+    background-color: #35c2ed;
+}
+
+/* opera Icon Card Styling */
+.fa-opera:hover {
+    color: #ff333d;
+}
+
+.color-box.opera {
+    background-color: #ff333d;
+}
+
+/* patreon Icon Card Styling */
+.fa-patreon:hover {
+    color: #f96854;
+}
+
+.color-box.patreon {
+    background-color: #f96854;
 }
 
 /* PayPal Icon Card Styling */
@@ -1221,6 +1261,73 @@ Hafcon Color: #18bba5;
     background-color: #009cde;
 }
 
+/* periscope Icon Card Styling */
+.fa-periscope:hover {
+    color: #40a4c4;
+}
+
+.color-box.periscope {
+    background-color: #40a4c4;
+}
+
+/* phoenix-framework Icon Card Styling */
+.fa-phoenix-framework:hover {
+    color: #f15523;
+}
+
+.color-box.phoenix-framework {
+    background-color: #f15523;
+}
+
+/* php Icon Card Styling */
+.fa-php:hover {
+    color: #777bb3;
+}
+
+.color-box.php {
+    background-color: #777bb3;
+}
+
+/* pinterest Icon Card Styling */
+.fa-pinterest:hover,
+.fa-pinterest-p:hover,
+.fa-pinterest-square:hover {
+    color: #e60023;
+}
+
+.color-box.pinterest,
+.color-box.pinterest-p,
+.color-box.pinterest-square {
+    background-color: #e60023;
+}
+
+/* pushed Icon Card Styling */
+.fa-pushed:hover {
+    color: #f8e61a;
+}
+
+.color-box.pushed {
+    background-color: #f8e61a;
+}
+
+/* Python Blue Icon Card Styling */
+.python-blue:hover {
+    color: #3774a7;
+}
+
+.color-box.python-blue {
+    background-color: #3774a7;
+}
+
+/* Python Yellow Icon Card Styling */
+.python-yellow:hover {
+    color: #ffd646;
+}
+
+.color-box.python-yellow {
+    background-color: #ffd646;
+}
+
 /* Pocket Icon Card Styling */
 .fa-get-pocket:hover {
     color: #ef4056;
@@ -1228,6 +1335,109 @@ Hafcon Color: #18bba5;
 
 .color-box.get-pocket {
     background-color: #ef4056;
+}
+
+/* raspberry-pi Icon Card Styling */
+.fa-raspberry-pi:hover {
+    color: #c31c4a;
+}
+
+.color-box.raspberry-pi {
+    background-color: #c31c4a;
+}
+
+/* reddit Icon Card Styling */
+.fa-reddit:hover,
+.fa-reddit-alien:hover,
+.fa-reddit-square:hover {
+    color: #ff4500;
+}
+
+.color-box.reddit,
+.color-box.reddit-alien,
+.color-box.reddit-square {
+    background-color: #ff4500;
+}
+
+/* Red Hat Icon Card Styling */
+.fa-redhat:hover {
+    color: #ee0000;
+}
+
+.color-box.redhat {
+    background-color: #ee0000;
+}
+
+/* researchgate Icon Card Styling */
+.fa-researchgate:hover {
+    color: #00d0af;
+}
+
+.color-box.researchgate {
+    background-color: #00d0af;
+}
+
+/* rocketchat Icon Card Styling */
+.fa-rocketchat:hover {
+    color: #db2323;
+}
+
+.color-box.rocketchat {
+    background-color: #db2323;
+}
+
+/* safari Icon Card Styling */
+.fa-safari:hover {
+    color: #0f9ae5;
+}
+
+.color-box.safari {
+    background-color: #0f9ae5;
+}
+
+/* salesforce Icon Card Styling */
+.fa-salesforce:hover {
+    color: #21a0df;
+}
+
+.color-box.salesforce {
+    background-color: #21a0df;
+}
+
+/* sass Icon Card Styling */
+.fa-sass:hover {
+    color: #cf649a;
+}
+
+.color-box.sass {
+    background-color: #cf649a;
+}
+
+/* scribd Icon Card Styling */
+.fa-scribd:hover {
+    color: #008490;
+}
+
+.color-box.scribd {
+    background-color: #008490;
+}
+
+/* sellcast Icon Card Styling */
+.fa-sellcast:hover {
+    color: #f15b2f;
+}
+
+.color-box.sellcast {
+    background-color: #f15b2f;
+}
+
+/* sellsy Icon Card Styling */
+.fa-sellsy:hover {
+    color: #009ae6;
+}
+
+.color-box.sellsy {
+    background-color: rgb(0, 154, 230);
 }
 
 /****----MEDIA QUERIES----****/
