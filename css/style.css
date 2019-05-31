@@ -179,7 +179,6 @@ Hafcon Color: #18bba5;
     font-size: 1.25rem;
 }
 
-
 /****----ICON COLORS----****/
 
 /* Black Icon Card Stylings */
@@ -803,13 +802,13 @@ Hafcon Color: #18bba5;
 }
 
 /* GitHub Icon Card Stylings */
-.fa-github:hover,
+.main-github:hover,
 .fa-github-alt:hover,
 .fa-github-square:hover {
     color: #1b1f23;
 }
 
-.color-box.github,
+.color-box.main-github,
 .color-box.github-alt,
 .color-box.github-square {
     background-color: #1b1f23;
@@ -1437,7 +1436,37 @@ Hafcon Color: #18bba5;
 }
 
 .color-box.sellsy {
-    background-color: rgb(0, 154, 230);
+    background-color: #009ae6;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #414141;
+    text-align: center;
+    padding: 4.5% 0;
+}
+
+.footer-icon-github,
+.footer-icon-twitter {
+    color: #777777;
+    font-size: 1.3rem;
+    margin: 0 2.5% 0 2.5%;
+    text-decoration: none;
+    transition: ease-in-out 250ms;
+}
+
+.footer-icon-github:hover,
+.footer-icon-twitter:hover,
+.footer-icon-github:active,
+.footer-icon-twitter:active,
+.footer-icon-github:focus,
+.footer-icon-twitter:focus {
+    color: #18bba5;
+}
+
+.footer-para {
+    color: #777777;
+    margin-top: 2.5%;
 }
 
 /****----MEDIA QUERIES----****/
@@ -1509,6 +1538,20 @@ Hafcon Color: #18bba5;
     .color-codes-row a:focus {
         font-size: 1.3rem;
     }
+
+    .footer {
+        padding: 4% 0;
+    }
+    
+    .footer-icon-github,
+    .footer-icon-twitter {
+        font-size: 1.5rem;
+        margin: 0 2% 0 2%;
+    }
+    
+    .footer-para {
+        margin-top: 2%;
+    }
 }
 
 /* BREAKPOINT 2: 1024px wide */
@@ -1572,6 +1615,20 @@ Hafcon Color: #18bba5;
 
     .main-icon {
         font-size: 3.85rem;
+    }
+
+    .footer {
+        padding: 3% 0;
+    }
+    
+    .footer-icon-github,
+    .footer-icon-twitter {
+        font-size: 1.6rem;
+        margin: 0 1.75% 0 1.75%;
+    }
+    
+    .footer-para {
+        margin-top: 1.75%;
     }
 }
 
@@ -1638,6 +1695,15 @@ Hafcon Color: #18bba5;
 
     .color-codes-row {
         font-size: 1.12rem;
+    }
+
+    .footer {
+        padding: 2% 0;
+    }
+    
+    .footer-icon-github,
+    .footer-icon-twitter {
+        font-size: 1.7rem;
     }
 }
 
@@ -1715,5 +1781,19 @@ Hafcon Color: #18bba5;
     .color-codes-row a:active,
     .color-codes-row a:focus {
         font-size: 1.35rem;
+    }
+
+    .footer {
+        padding: 1.7% 0;
+    }
+    
+    .footer-icon-github,
+    .footer-icon-twitter {
+        font-size: 1.8rem;
+        margin: 1.75% 1.75% 0 1.75%;
+    }
+    
+    .footer-para {
+        margin-top: 1%;
     }
 }
