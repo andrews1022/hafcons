@@ -1,0 +1,338 @@
+/*
+By default, the site you build with this optimized for min-width of 360px.
+From here, just scale upwards/re-align elements as need be.
+This site structure assumes a mobile-first approach, hence the use of min-width
+
+$breakpoint argument choices:
+- tab-port (tablet-portrait)
+- tab-land (tablet-landscape)
+- laptop (standard laptop screen resolution)
+- desktop (standard desktop screen resolution)
+- desktop-lg (1440p resolution desktop)
+- desktop-4k (4k resolution desktop)
+
+** MIN-WIDTH SETTINGS **
+- tab-port == min-width 768px
+- tab-land == min-width 1024px
+- laptop == min-width 1366px
+- desktop == min-width 1920px
+- desktop-lg == min-width 2560px
+- desktop-4k == min-width 3840px
+
+1em = 16px (16px is the default browser font-size)
+Each em amount is the min-width listed above divided 16
+For example, for tab-port, 768px / 16px = 48em
+*/
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  /* Equivalent to 10px */
+}
+
+@media only screen and (min-width: 36em) {
+  html {
+    font-size: 65.65%;
+  }
+}
+
+@media only screen and (min-width: 48em) {
+  html {
+    font-size: 68.75%;
+  }
+}
+
+@media only screen and (min-width: 64em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media only screen and (min-width: 85.375em) {
+  html {
+    font-size: 81.25%;
+  }
+}
+
+@media only screen and (min-width: 120em) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+@media only screen and (min-width: 160em) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (min-width: 240em) {
+  html {
+    font-size: 112.5%;
+  }
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-weight: 400;
+  line-height: 1.45;
+  font-family: "Lato", sans-serif;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+::-moz-selection {
+  background-color: #18bba5;
+  color: #fff;
+}
+
+::selection {
+  background-color: #18bba5;
+  color: #fff;
+}
+
+.heading-main {
+  background-color: #18bba5;
+  color: #fff;
+  font-size: 4.5rem;
+  letter-spacing: 1.5px;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.heading-block {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.para-text {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.cdn-link:link, .cdn-link:visited {
+  color: #18bba5;
+  -webkit-transition: all 250ms;
+  -o-transition: all 250ms;
+  transition: all 250ms;
+}
+
+.cdn-link:hover, .cdn-link:active, .cdn-link:focus {
+  color: #149987;
+}
+
+.divider {
+  background-color: #18bba5;
+  border: none;
+  height: 3px;
+  margin: 0 auto;
+  width: 15%;
+}
+
+.filter-input {
+  border: 3px solid #18bba5;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.05);
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  margin: 3.5rem 0;
+  padding: 1.75rem 3.25rem;
+  -webkit-transition: all 250ms;
+  -o-transition: all 250ms;
+  transition: all 250ms;
+}
+
+.filter-input:hover, .filter-input:active, .filter-input:focus {
+  border-color: #149987;
+  outline: none;
+}
+
+.icon-card {
+  background-color: #f1f1f1;
+  width: 90%;
+  margin: 0 auto 2rem auto;
+  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  -webkit-transition: all 250ms;
+  -o-transition: all 250ms;
+  transition: all 250ms;
+}
+
+.icon-card:hover {
+  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.25);
+          box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.25);
+  -webkit-transform: translateY(-4px);
+      -ms-transform: translateY(-4px);
+          transform: translateY(-4px);
+}
+
+.icon-info-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #414141;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.icon-info-box-icon {
+  margin-right: 1rem;
+  font-size: 3.5rem;
+}
+
+@media only screen and (min-width: 120em) {
+  .icon-info-box-icon {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 120em) {
+  .icon-info-box-heading {
+    font-size: 2.25rem;
+  }
+}
+
+.icon-color-box {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+}
+
+.icon-color-box.first-accusoft {
+  background-color: #f79e5c;
+}
+
+.icon-color-box.second-accusoft {
+  background-color: #ff7e4a;
+}
+
+.icon-color-box.third-accusoft {
+  background-color: #5abaae;
+}
+
+.icon-color-box.first-adobe {
+  background-color: #ff0000;
+}
+
+.icon-color-box.first-affiliatetheme {
+  background-color: #c01313;
+}
+
+.icon-color-box.first-airbnb {
+  background-color: #ff5a5f;
+}
+
+.icon-color-box.first-algolia {
+  background-color: #1b89f2;
+}
+
+.icon-color-box.first-alipay {
+  background-color: #00aaee;
+}
+
+.icon-color-box.first-amazon {
+  background-color: #ff9900;
+}
+
+.icon-color-box.first-amex {
+  background-color: #006fd1;
+}
+
+.icon-color-box.first-amilia {
+  background-color: #2d93e1;
+}
+
+.footer {
+  background-color: #414141;
+  padding: 2rem 0;
+  text-align: center;
+  color: #f1f1f1;
+}
+
+.footer-link:link, .footer-link:visited {
+  color: #f1f1f1;
+  -webkit-filter: opacity(60%);
+          filter: opacity(60%);
+  font-size: 2rem;
+  margin: 0 1rem;
+  -webkit-transition: all 250ms;
+  -o-transition: all 250ms;
+  transition: all 250ms;
+}
+
+.footer-link:hover, .footer-link:active, .footer-link:focus {
+  -webkit-filter: opacity(90%);
+          filter: opacity(90%);
+  color: #18bba5;
+}
+
+.footer-text {
+  -webkit-filter: opacity(60%);
+          filter: opacity(60%);
+  font-size: 1.25rem;
+  margin: 1rem;
+}
+
+.footer-text-icon {
+  margin: 0.5rem;
+}
+
+.section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.section-icons {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1.5rem;
+  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  margin: -2rem auto 0 auto;
+  text-align: left;
+}
+
+@media only screen and (min-width: 120em) {
+  .section-icons {
+    padding: 2rem 6rem;
+  }
+}
+
+.test {
+  color: #00abef;
+}
+/*# sourceMappingURL=main.css.map */
