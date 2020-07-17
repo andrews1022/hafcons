@@ -1,0 +1,27 @@
+// Basic Shades
+$white: #fff;
+$black: #000;
+
+// Colors
+$light-sea: #18bba5;
+$charcoal: #4f4f4f;
+
+// Fonts
+$font-lato: 'Lato', sans-serif;
+
+// General/UI
+$bumper-padding: 0 1rem;
+$subtle-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
+$transition-smooth: all 175ms ease-in-out;
+
+// BREAKPOINTS (start building at 320px, then go up from there with these breakpoints)
+$desktop-large: 'only screen and (min-width: 125em)';
+$desktop-medium: 'only screen and (max-width: 120em)';
+$desktop-small: 'only screen and (max-width: 105em)';
+$laptop-large: 'only screen and (max-width: 90em)';
+$laptop-medium: 'only screen and (max-width: 85.35em)';
+$laptop-small: 'only screen and (max-width: 75em)';
+$tablet-landscape: 'only screen and (max-width: 64em)';
+$tablet-portrait: 'only screen and (max-width: 48em)';
+$mobile-large: 'only screen and (max-width: 36em)';
+$mobile-medium: 'only screen and (max-width: 22.5em)';

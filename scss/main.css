@@ -1,0 +1,173 @@
+.card__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-size: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border: 0;
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  outline: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  max-width: 100%;
+}
+
+.card {
+  color: #4f4f4f;
+  margin-bottom: 2rem;
+  width: 15%;
+  transition: all 175ms ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
+  transform: translateY(-4px);
+}
+
+.card:not(:nth-child(6n + 6)) {
+  margin-right: 2rem;
+}
+
+.card__header {
+  padding: 1rem;
+  background-color: #f1f1f1;
+}
+
+.card__icon {
+  font-size: 2.5rem;
+}
+
+.card__heading {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.card__color-box {
+  padding: 1rem;
+}
+
+.card__color-value {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-weight: 700;
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+
+.card__color-icon {
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: #18bba5;
+  color: #fff;
+  font-size: 2.25rem;
+  letter-spacing: 1.5px;
+  padding: 1.25rem 0;
+  text-align: center;
+}
+
+.intro {
+  color: #4f4f4f;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.intro__heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.intro__text {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+}
+
+.intro__input {
+  border: 0.25rem solid #18bba5;
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.05);
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  padding: 0.75rem 2rem;
+  transition: all 175ms ease-in-out;
+  width: 25rem;
+}
+
+.intro__input:focus {
+  border-color: #128e7d;
+  outline: none;
+}
+
+.main {
+  margin: 0 auto;
+  width: 90%;
+}
+/*# sourceMappingURL=main.css.map */
