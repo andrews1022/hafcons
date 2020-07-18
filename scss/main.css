@@ -72,7 +72,7 @@ video {
 .card {
   color: #4f4f4f;
   margin-bottom: 2rem;
-  width: 15%;
+  width: 17%;
   transition: all 175ms ease-in-out;
 }
 
@@ -81,13 +81,17 @@ video {
   transform: translateY(-4px);
 }
 
-.card:not(:nth-child(6n + 6)) {
+.card:not(:nth-child(5n + 5)) {
   margin-right: 2rem;
+}
+
+.card--hidden {
+  display: none;
 }
 
 .card__header {
   padding: 1rem;
-  background-color: #f1f1f1;
+  background-color: #f6f6f6;
 }
 
 .card__icon {
@@ -117,7 +121,7 @@ video {
   cursor: pointer;
 }
 
-.cards {
+.cards-container {
   display: flex;
   align-items: flex-start;
   flex-flow: row wrap;

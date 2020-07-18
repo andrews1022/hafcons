@@ -1,7 +1,7 @@
 .card {
   color: $charcoal;
   margin-bottom: 2rem;
-  width: 15%;
+  width: 17%;
   transition: $transition-smooth;
 
   &:hover {
@@ -9,14 +9,18 @@
     transform: translateY(-4px);
   }
 
-  &:not(:nth-child(6n + 6)) {
+  &:not(:nth-child(5n + 5)) {
     margin-right: 2rem;
+  }
+
+  &--hidden {
+    display: none;
   }
 
   &__header {
     @extend %flex-both-center;
     padding: 1rem;
-    background-color: #f1f1f1;
+    background-color: #f6f6f6;
   }
 
   &__icon {
