@@ -1,19 +1,8 @@
-// Abstract Folder Imports
-@import 'abstract/mixins';
 @import 'abstract/placeholders';
 @import 'abstract/variables';
-
-// Base Folder Imports
 @import 'base/resets';
-@import 'base/typography';
-
-// Components Folder Imports
 @import 'components/color-card';
-
-// Layout Folder Imports
 @import 'layout/cards';
-@import 'layout/footer';
-@import 'layout/grid';
 @import 'layout/header';
 @import 'layout/intro';
 @import 'layout/main';
