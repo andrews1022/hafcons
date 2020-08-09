@@ -3,9 +3,8 @@ const cards = document.querySelectorAll('.card');
 // const filterInput = document.querySelector('.intro__input');
 
 const createCards = async () => {
-  const response = await fetch('../data/brands.json');
+  const response = await fetch('./data/brands.json');
   const brands = await response.json();
-  console.log(brands);
 
   brands.forEach((el, i, arr) => {
     const card = document.createElement('div');
