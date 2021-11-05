@@ -1,32 +1,32 @@
 .intro {
-  color: $charcoal;
-  margin: 2rem 0;
-  text-align: center;
+	color: $charcoal;
+	margin: 2rem 0;
+	text-align: center;
 
-  &__heading {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
+	&__heading {
+		font-size: 2rem;
+		margin-bottom: 1rem;
+	}
 
-  &__text {
-    font-size: 1.25rem;
-    margin: 1rem 0;
-  }
+	&__text {
+		font-size: 1.25rem;
+		margin: 1rem 0;
+	}
 
-  &__input {
-    border: 0.25rem solid $light-sea;
-    border-radius: 0.5rem;
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.05);
-    font-family: $font-lato;
-    font-size: 1.5rem;
-    margin: 1.5rem 0;
-    padding: 0.75rem 2rem;
-    transition: $transition-smooth;
-    width: 25rem;
+	&__input {
+		border: 0.25rem solid $light-sea;
+		border-radius: 0.5rem;
+		box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.05);
+		font-family: $font-lato;
+		font-size: 1.5rem;
+		margin: 1.5rem 0;
+		padding: 0.75rem 2rem;
+		transition: $transition-smooth;
+		width: 25rem;
 
-    &:focus {
-      border-color: darken($light-sea, 10%);
-      outline: none;
-    }
-  }
+		&:focus {
+			border-color: darken($light-sea, 10%);
+			outline: none;
+		}
+	}
 }
